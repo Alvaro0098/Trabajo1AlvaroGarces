@@ -1,0 +1,279 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./img/matt-hardy-6ArTTluciuA-unsplash.png);
+  background-position: initial;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 100px;
+}
+
+.enlace {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif; /* Tipografía aplicada */
+  font-size: 1.2em; /* Tamaño de letra aumentado */
+  margin: 0 15px; /* Espaciado entre enlaces */
+  transition: color 0.3s, text-decoration 0.3s; /* Transiciones suaves para hover */
+}
+
+.enlace:hover {
+  color: #00aaff; /* Color de texto al pasar el ratón */
+  text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+.enlace:focus {
+  outline: 2px solid #00aaff; /* Estilo para foco, útil para accesibilidad */
+}
+
+.enlace:active {
+  color: #0077cc; /* Color de texto cuando el enlace es activado */
+}
+
+.banner {
+  background-image: url("img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.banner .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.banner h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.banner p {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.search-flights {
+  background-color: white;
+  padding: 20px;
+  margin-top: -50px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 800px;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.search-flights h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.btn-secondary {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0;
+}
+
+.destinos {
+  margin-top: 50px;
+}
+
+.destinos h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.galeria {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.destinos-card {
+  width: 200px;
+  text-align: center;
+}
+
+.destinos-card img {
+  width: 100%;
+  border-radius: 10px;
+  height: 200px; /* Ajusta la altura según lo que prefieras */
+}
+
+.destinos-card h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-family: "Poppins", sans-serif;
+}
+
+.testimonios {
+  margin-top: 50px;
+}
+
+.testimonios h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: "Poppins", sans-serif;
+}
+
+.testimonios-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testimonios-card {
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.testimonios-card p {
+  font-style: italic;
+  font-size: 1.1em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.testimonios-card span {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.sobreNosotros {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.sobreNosotrosContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.sobreNosotros h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.sobreNosotros p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-logo img {
+  height: 100px;
+}
+
+.footer-logo p {
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.footer-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin: 5px 0;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
